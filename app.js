@@ -1,6 +1,6 @@
 require('dotenv').config()
 const express = require('express')
-const connect = require('./schemas')
+// const connect = require('./schemas')
 const cors = require('cors')
 const fs = require('fs')
 const https = require('https')
@@ -28,7 +28,7 @@ app_low.use((req, res, next) => {
     }
 })
 
-connect()
+// connect()
 //마지막에 cors 수정해야함
 app.use(cors())
 
