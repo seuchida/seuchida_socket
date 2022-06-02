@@ -1,6 +1,6 @@
 require("dotenv").config();
 const jwt = require('jsonwebtoken');
-const User = require('../schemas/user');
+// const User = require('../schemas/user');
 const Joi = require("joi")
 
 const authorizationSchema = Joi.string()

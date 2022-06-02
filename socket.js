@@ -1,9 +1,9 @@
 const SocketIO = require('socket.io')
 const moment = require('moment')
-const Chat = require('./schemas/chatting')
-const Room = require('./schemas/room')
-const Post = require('./schemas/post')
-const socketauthMiddleware = require('./middlewares/socket-auth-middleware')
+// const Chat = require('./schemas/chatting')
+// const Room = require('./schemas/room')
+// const Post = require('./schemas/post')
+// const socketauthMiddleware = require('./middlewares/socket-auth-middleware')
 const { v4 } = require('uuid')
 
 module.exports = (server) => {
